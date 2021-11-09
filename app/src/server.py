@@ -2,7 +2,7 @@ from flask import Flask
 server = Flask(__name__)
 
 @server.route("/")
- def hello():
+def hello():
     return "<h1>Python Containerized App running!!!</h1>"
 
 if __name__ == "__main__":
